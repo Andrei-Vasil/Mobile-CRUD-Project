@@ -1,13 +1,13 @@
-package com.internship.crudapp.feature.main_screen
+package com.ubb.crudapp.feature.main_screen
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.internship.crudapp.R
-import com.internship.crudapp.databinding.FragmentFeedBinding
-import com.internship.crudapp.logTag
+import com.ubb.crudapp.R
+import com.ubb.crudapp.databinding.FragmentFeedBinding
+import com.ubb.crudapp.logTag
 import com.zhuinden.fragmentviewbindingdelegatekt.viewBinding
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import java.util.UUID

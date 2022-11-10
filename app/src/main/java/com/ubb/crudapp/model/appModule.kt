@@ -1,6 +1,6 @@
-package com.internship.crudapp.model
+package com.ubb.crudapp.model
 
-import com.internship.crudapp.feature.main_screen.FeedViewModel
+import com.ubb.crudapp.feature.main_screen.FeedViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module

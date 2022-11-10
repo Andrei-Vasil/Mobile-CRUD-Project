@@ -1,9 +1,9 @@
-package com.internship.crudapp.feature.main_screen
+package com.ubb.crudapp.feature.main_screen
 
 import androidx.recyclerview.widget.RecyclerView
-import com.internship.crudapp.R
-import com.internship.crudapp.databinding.CatFeedCardBinding
-import com.internship.crudapp.feature.main_screen.dtos.Cat
+import com.ubb.crudapp.R
+import com.ubb.crudapp.databinding.CatFeedCardBinding
+import com.ubb.crudapp.feature.main_screen.dtos.Cat
 import java.util.UUID
 
 class CatViewHolder(

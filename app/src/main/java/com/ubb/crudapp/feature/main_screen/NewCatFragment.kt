@@ -1,12 +1,12 @@
-package com.internship.crudapp.feature.main_screen
+package com.ubb.crudapp.feature.main_screen
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.internship.crudapp.R
-import com.internship.crudapp.databinding.FragmentNewCatBinding
-import com.internship.crudapp.feature.main_screen.dtos.Cat
+import com.ubb.crudapp.R
+import com.ubb.crudapp.databinding.FragmentNewCatBinding
+import com.ubb.crudapp.feature.main_screen.dtos.Cat
 import com.tapadoo.alerter.Alerter
 import com.zhuinden.fragmentviewbindingdelegatekt.viewBinding
 import org.koin.androidx.viewmodel.ext.android.activityViewModel

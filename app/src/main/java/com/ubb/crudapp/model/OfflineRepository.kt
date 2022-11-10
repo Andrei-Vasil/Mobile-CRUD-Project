@@ -1,7 +1,7 @@
-package com.internship.crudapp.model
+package com.ubb.crudapp.model
 
-import com.internship.crudapp.feature.main_screen.dtos.Cat
-import com.internship.crudapp.logTag
+import com.ubb.crudapp.feature.main_screen.dtos.Cat
+import com.ubb.crudapp.logTag
 import java.util.UUID
 
 class OfflineRepository {

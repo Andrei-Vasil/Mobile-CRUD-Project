@@ -1,4 +1,4 @@
-package com.internship.crudapp.model
+package com.ubb.crudapp.model
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
@@ -10,6 +10,6 @@ class InternalStorageManager(context: Context) {
 
 
     companion object {
-        const val KEY_PREFERENCES = "com.internship.crudappp.KEY_PREFERENCES"
+        const val KEY_PREFERENCES = "com.ubb.crudappp.KEY_PREFERENCES"
     }
 }

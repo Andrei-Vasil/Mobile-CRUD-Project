@@ -1,4 +1,4 @@
-package com.internship.crudapp.feature.main_screen.dtos
+package com.ubb.crudapp.feature.main_screen.dtos
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -1,12 +1,12 @@
-package com.internship.crudapp.feature.main_screen
+package com.ubb.crudapp.feature.main_screen
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.internship.crudapp.feature.main_screen.dtos.Cat
-import com.internship.crudapp.logTag
-import com.internship.crudapp.model.OfflineRepository
+import com.ubb.crudapp.feature.main_screen.dtos.Cat
+import com.ubb.crudapp.logTag
+import com.ubb.crudapp.model.OfflineRepository
 import kotlinx.coroutines.launch
 import java.util.UUID
 
