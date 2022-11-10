@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CrudApp</string>
+
+    <!-- card details -->
+    <string name="cat_name_fmts">%s</string>
+    <string name="age_fmts">%s</string>
+    <string name="breed_fmts">%s</string>
+    <string name="owner_name_fmts">%s</string>
+    <string name="color_fmts">%s</string>
+
+    <!-- arguments -->
+    <string name="cat_name">Cat Name</string>
+    <string name="cat_age">Age</string>
+    <string name="cat_breed">Breed</string>
+    <string name="owner_name">Owner name</string>
+    <string name="cat_color">Color</string>
+
+    <string name="save_text_btn">Save</string>
+    <string name="delete_btn_string">Delete</string>
+    <string name="update_btn_string">Update</string>
+</resources>

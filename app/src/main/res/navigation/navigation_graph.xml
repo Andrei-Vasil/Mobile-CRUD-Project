@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.internship.crudapp.feature.main_screen.FeedFragment"
+        android:label="FeedFragment" >
+        <action
+            android:id="@+id/action_feedFragment_to_newCatFragment"
+            app:destination="@id/newCatFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_feedFragment_to_updateCatFragment"
+            app:destination="@id/updateCatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newCatFragment"
+        android:name="com.internship.crudapp.feature.main_screen.NewCatFragment"
+        android:label="NewCatFragment">
+        <action
+            android:id="@+id/action_newCatFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateCatFragment"
+        android:name="com.internship.crudapp.feature.main_screen.UpdateCatFragment"
+        android:label="UpdateCatFragment">
+        <action
+            android:id="@+id/action_updateCatFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+        <argument
+            android:name="catId"
+            app:argType="java.util.UUID" />
+    </fragment>
+</navigation>
